@@ -1,0 +1,13 @@
+dataset: maff-tameike-list-jp-2026-03
+release: 農業用ため池一覧(令和8年3月末時点)
+provider: Ministry of Agriculture, Forestry and Fisheries of Japan (MAFF), 農村振興局整備部防災課
+landing_page: https://www.maff.go.jp/j/nousin/bousai/bousai_saigai/b_tameike/ichiran.html
+terms_page: https://www.maff.go.jp/j/use/link.html
+fetched_on: 2026-11-06
+fetch: one file at a time, 5 s apart, User-Agent geo-dataset-collector-yuiseki/0.1 (personal research); every response 200
+files: national file tameike_ichiranR8.xlsx (published in raw/data/); 8 regional split files tameike_ichiranR8_1..8.xlsx (not published; identical rows, see docs/verification.json); sha256 in raw/download_log.tsv
+processing: Excel to Parquet (zstd); columns renamed to English; decimal degrees added; coord_status added; source_row added; text and numeric cells otherwise unchanged
+coordinate_rules: scripts/coords.py (tests: scripts/test_coords.py)
+corrected: source_row 31968 (相好, Iiyama, Nagano), longitude degrees 38 to 138
+nulled: 63 rows suspect_city_outlier, 52 rows placeholder (lat and lon null; lat_original and lon_original keep the source values)
+checks: docs/verification.json, docs/build.json

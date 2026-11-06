@@ -1,0 +1,20 @@
+{
+ "repo": "yuiseki/maff-tameike-list-jp-2026-03",
+ "revision": "ee87755e53cf5b049b31bc307aca56ad950771cc",
+ "files_checked": 17,
+ "files_on_hub": 18,
+ "rows": 161846,
+ "duckdb": [
+  161846,
+  161846,
+  115
+ ],
+ "statuses": {
+  "placeholder": 52,
+  "ok_carry": 212,
+  "suspect_city_outlier": 63,
+  "ok": 161518,
+  "fixed_lon_plus100": 1
+ },
+ "problems": []
+}

@@ -1,0 +1,29 @@
+{
+ "source": "raw/data/tameike_ichiranR8.xlsx",
+ "source_sha256": "abc1a84885d30f0e877b7acf30858e0b45ee7b72309ddf437127087107fce70b",
+ "rows": 161846,
+ "source_header": [
+  "名称",
+  "都道府県",
+  "市区町村",
+  "町域名、番地",
+  "緯度",
+  "分",
+  "秒",
+  "経度",
+  "分2",
+  "秒2",
+  "堤高(m)",
+  "堤頂長(m)",
+  "総貯水量(千m3)",
+  "満水面積(km2)"
+ ],
+ "status_count": {
+  "ok": 161518,
+  "ok_carry": 212,
+  "suspect_city_outlier": 63,
+  "placeholder": 52,
+  "fixed_lon_plus100": 1
+ },
+ "municipalities_with_median": 1093
+}

@@ -1,0 +1,24 @@
+{
+ "repo": "yuiseki/maff-tameike-list-jp-2026-03",
+ "revision": "ee87755e53cf5b049b31bc307aca56ad950771cc",
+ "pushed": "2026-11-06T04:46:04+00:00",
+ "sha256": {
+  "README.md": "fd55ff7cc77ef7050eed4ee06ecda4393a93c4d8ce5a4f8487a34d5f6b8a07d5",
+  "LICENSE": "c27c20683c32d1418f283a1fe1848d21309fc2330177546b21d318a4450898bc",
+  "provenance.yaml": "222b291eae435497ed84bfd00bbea311a97f5a213052f65e07e5cc37ec4b2e16",
+  "parquet/maff_tameike_ichiran_20260331.parquet": "a7c06c020d034dd2b6baa3b03f8681c46aaad8b5c1c9f938ac3924ece48b634a",
+  "raw/data/tameike_ichiranR8.xlsx": "abc1a84885d30f0e877b7acf30858e0b45ee7b72309ddf437127087107fce70b",
+  "raw/page.html": "84425936acd3560d9fefcf75edfa2fa2a7fbd03be5177f0e26ceeeb7ad990cf3",
+  "raw/link.html": "cbe5fc803449484f2a6876bb2b0063534fe803db812a64675de77ef748bcf03e",
+  "raw/download_log.tsv": "e75f3113ff7e898c05c55af675bc0eb2f003a5536883e8c428b4a0187e5a9059",
+  "docs/build.json": "7ede6b0e5dddac75513eb2a306f7efaf6c9308c9ccbd1aa2062f9af74a099680",
+  "docs/coord_review.jsonl": "ac161aeee4d330ffb44d29aa34608e5e1bce64108b275d8e782126dda2eede9c",
+  "docs/verification.json": "e24569e7a84ac724230f8c4f6f93aaa8a11485a9d9d98fff4889ee7da2021123",
+  "scripts/01_build.py": "99ce1a41dff241a25441f88bc9287d2684281747fa36ee2f64a4684c4b67090c",
+  "scripts/02_verify.py": "13b8eb73f56d4fcef4921214dab1674ff8a6272e89405a816f58a4bf2307f06c",
+  "scripts/03_card.py": "bba50d377c8c92933d3ba24fc97fd2cc24004f1be7e42b8292315d0723ceb7b7",
+  "scripts/coords.py": "381fd098b977fb1f86521dbe56e079ac49e13da7cca882239607c329b490d40a",
+  "scripts/test_coords.py": "9a027d6cca7fee539e4255c090b95a6f3d2fa8f2cbbb840be022eaf1452ff468",
+  "src/publish.py": "b5228cbddb157110be9667e3c32d280c28399de1c876865a0bed895edcad8071"
+ }
+}

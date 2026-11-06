@@ -1,0 +1,6 @@
+work/
+hub_readback/
+__pycache__/
+.pytest_cache/
+raw/split/
+*.h

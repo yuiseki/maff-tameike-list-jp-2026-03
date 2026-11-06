@@ -1,0 +1,15 @@
+{
+ "parquet_rows": 161846,
+ "split_rows": 161846,
+ "multiset_equal": true,
+ "unchanged_statuses_with_changed_values": 0,
+ "changed_rows": [
+  31968
+ ],
+ "null_lat_lon_rows": 115,
+ "null_only_for_suspect_or_placeholder": true,
+ "lat_original_never_null": true,
+ "non_null_in_range": 161731,
+ "non_null_outside_range": [],
+ "source_rows_unique": true
+}
